@@ -1,0 +1,304 @@
+@media (min-width: 1025px) {
+
+h1,h2{
+    font-family: 'Alegreya SC', serif;
+}
+.nice_to_meet_you{
+    margin-left:40px;
+    background-color:#E5E5E5;
+    padding-bottom: 30px;
+
+}
+.hello{
+    margin-left:50%;
+    
+   
+}
+.intro{
+    background-color: #c2dde6;
+      background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+      min-height: 400px;
+    
+
+}
+*{
+    font-family: 'Source Serif Pro', serif;
+    
+    
+}
+body{
+  margin-left:20px;
+  margin-right:20px;
+
+}
+
+p{
+margin-left: 5%;
+margin-right: 5%;
+}
+.pablo_quote{
+    background-color:#c2dde6;
+    color:white;
+    text-align: center;
+    padding:30px;  
+}
+.character_title{
+    margin-left:50%;
+
+}
+.emphasis{
+    text-emphasis: 
+
+
+}
+#get_in_touch{
+    background-color:#E5E5E5;
+    padding-bottom: 30px;
+}
+
+#softwareicon{
+  width : 120px; ///for what dimmensions
+  height: auto;
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  padding-top:70px;
+ 
+}
+.down_button{
+  margin-bottom: 5px;
+  display:inline-block;
+  margin-top:40px;
+}
+}
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 480px) and (max-width: 1024px) {
+    h1,h2{
+      font-family: 'Alegreya SC', serif;
+  }
+  .nice_to_meet_you{
+      margin:20px 20px 40px 40px;
+      background-image: -webkit-linear-gradient( #cdd422 20%,white 80%);
+     
+      padding-bottom: 30px;
+      
+  }
+  .hello{
+      margin-left:50%;   
+  }
+  .intro{
+      background-color: #c2dde6;
+        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+        min-height: 400px;
+  }
+  *{
+      font-family: 'Source Serif Pro', serif;
+       
+  }
+  body{
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  p{
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .pablo_quote{
+      background-color:#c2dde6;
+      color:white;
+      text-align: center;
+      padding:30px;  
+  }
+  .character_title{
+      margin-left:50%;
+      background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+  
+  }
+  .character_div{
+    background-image: -webkit-linear-gradient(0deg, #cdd422 20%, #bccbde 30%);
+
+  }
+  
+  
+  #get_in_touch{
+      background-color:#cdd422;
+      padding-bottom: 30px;
+  }
+  
+  #softwareicon{
+    width : 120px; ///for what dimmensions
+    height: auto;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    padding-top:70px;
+   
+  }
+  .down_button{
+    margin-bottom: 5px;
+    display:inline-block;
+    margin-top:40px;
+  }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+
+
+
+
+
+
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    *{
+      box-sizing:border-box;
+      text-align: left;
+    }
+    h1,h2{
+      font-family: 'Alegreya SC', serif;
+  }
+  .nice_to_meet_you{
+
+      background-color:#E5E5E5;
+      padding-bottom: 30px;
+  }
+  
+  .intro{
+        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+  }
+  *{
+      font-family: 'Source Serif Pro', serif;
+  }
+  
+  p{
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .pablo_quote{
+      background-color:#c2dde6;
+      color:white;
+      text-align: center;
+      padding:30px;  
+  }
+  
+  #get_in_touch{
+      background-color:#E5E5E5;
+      padding-bottom: 30px;
+  }
+  
+  #softwareicon{
+    width : 120px; ///for what dimmensions
+    height: auto;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    padding-top:70px;
+   
+  }
+  .down_button{
+    margin-bottom: 5px;
+    display:inline-block;
+    margin-top:40px;
+  }
+  }
+
+
+
+
+
+
+
+
+  
+  @media (max-width: 320px){
+    {
+      box-sizing:border-box;
+    }
+    h1,h2{
+      font-family: 'Alegreya SC', serif;
+  }
+  .nice_to_meet_you{
+  
+      background-color:#E5E5E5;
+      padding-bottom: 30px;
+  
+  }
+  .hello{
+      text-align: center; 
+  }
+  .intro{
+      background-color: #c2dde6;
+        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+        min-height: 400px;
+  }
+  *{
+      font-family: 'Source Serif Pro', serif;  
+  }
+  body{
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  p{
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  .pablo_quote{
+      background-color:#c2dde6;
+      color:white;
+      text-align: center;
+      padding:30px;  
+  }
+  
+  .emphasis{
+      text-emphasis: 
+  
+  
+  }
+  #get_in_touch{
+      background-color:#E5E5E5;
+      padding-bottom: 30px;
+  }
+  
+  #softwareicon{
+    width : 120px; ///for what dimmensions
+    height: auto;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    padding-top:70px;
+   
+  }
+  .down_button{
+    margin-bottom: 5px;
+    display:inline-block;
+    margin-top:40px;
+  }
+
+  }
+
+
+  /*Grey silver: #bccbde
+
+Lightsaber Blue:#c2dde6
+
+Purple: #431c5d
+
+Orange: #e05915
+
+Yellowbrite: #cdd422
+
+*/
