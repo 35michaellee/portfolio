@@ -1,61 +1,93 @@
-@media (min-width: 1025px) {
 
-h1,h2{
-    font-family: 'Alegreya SC', serif;
-}
-.nice_to_meet_you{
-    margin-left:40px;
-    background-color:#E5E5E5;
-    padding-bottom: 30px;
-
-}
-.hello{
-    margin-left:50%;
-    
-   
-}
-.intro{
-    background-color: #c2dde6;
-      background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
-      min-height: 400px;
-    
-
-}
 *{
-    font-family: 'Source Serif Pro', serif;
-    
-    
+  font-family: 'Source Serif Pro', serif;   
 }
 body{
-  margin-left:20px;
-  margin-right:20px;
-
+  background-color: #7395ae;
+  color:white;
 }
-
-p{
-margin-left: 5%;
-margin-right: 5%;
-}
-.pablo_quote{
-    background-color:#c2dde6;
-    color:white;
-    text-align: center;
-    padding:30px;  
-}
+.button {
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+ 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 16px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 30px;
+  width:auto;
+  }
+.button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+  }
+.button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+  }
 .character_title{
-    margin-left:50%;
-
-}
-.emphasis{
-    text-emphasis: 
-
+  margin-left:50%;
+  color:white;
 
 }
 #get_in_touch{
-    background-color:#E5E5E5;
-    padding-bottom: 30px;
+  background-color:#557A95;
+  padding-bottom: 30px;
+  color:white;
 }
-
+h1,h2{
+  font-family: 'Alegreya SC', serif;
+}
+.hello{
+  margin-left:50%;
+}
+.intro{
+  background-color: #c2dde6;
+  background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
+  min-height: 400px;
+}
+.intouch{
+  display: block;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.intouchcontainer{
+  text-align: center; 
+}
+.nice_to_meet_you{
+  margin-left:40px;
+  background-color:#E5E5E5;
+  padding-bottom: 30px;
+}
+#otherwork{
+  margin-left:45%;
+  
+ 
+}
+p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.pablo_quote{
+  background-color:#c2dde6;
+  color:white;
+  text-align: center;
+  padding:30px;  
+}
 #softwareicon{
   width : 120px; ///for what dimmensions
   height: auto;
@@ -65,240 +97,25 @@ margin-right: 5%;
   padding-top:70px;
  
 }
-.down_button{
-  margin-bottom: 5px;
-  display:inline-block;
-  margin-top:40px;
-}
+.hidden{
+  display: none;
 }
 
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 480px) and (max-width: 1024px) {
-    h1,h2{
-      font-family: 'Alegreya SC', serif;
-  }
-  .nice_to_meet_you{
-      margin:20px 20px 40px 40px;
-      background-image: -webkit-linear-gradient( #cdd422 20%,white 80%);
-     
-      padding-bottom: 30px;
-      
-  }
-  .hello{
-      margin-left:50%;   
-  }
-  .intro{
-      background-color: #c2dde6;
-        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
-        min-height: 400px;
-  }
-  *{
-      font-family: 'Source Serif Pro', serif;
-       
-  }
-  body{
-    margin-left:20px;
-    margin-right:20px;
-  }
-  
-  p{
-  margin-left: 5%;
-  margin-right: 5%;
-  }
-  .pablo_quote{
-      background-color:#c2dde6;
-      color:white;
-      text-align: center;
-      padding:30px;  
-  }
-  .character_title{
-      margin-left:50%;
-      background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
-  
-  }
-  .character_div{
-    background-image: -webkit-linear-gradient(0deg, #cdd422 20%, #bccbde 30%);
-
-  }
-  
-  
-  #get_in_touch{
-      background-color:#cdd422;
-      padding-bottom: 30px;
-  }
-  
-  #softwareicon{
-    width : 120px; ///for what dimmensions
-    height: auto;
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-    padding-top:70px;
-   
-  }
-  .down_button{
-    margin-bottom: 5px;
-    display:inline-block;
-    margin-top:40px;
-  }
-
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
 
 
-
-
-
-
-
-
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    *{
-      box-sizing:border-box;
-      text-align: left;
-    }
-    h1,h2{
-      font-family: 'Alegreya SC', serif;
-  }
-  .nice_to_meet_you{
-
-      background-color:#E5E5E5;
-      padding-bottom: 30px;
-  }
-  
-  .intro{
-        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
-  }
-  *{
-      font-family: 'Source Serif Pro', serif;
-  }
-  
-  p{
-  margin-left: 5%;
-  margin-right: 5%;
-  }
-  .pablo_quote{
-      background-color:#c2dde6;
-      color:white;
-      text-align: center;
-      padding:30px;  
-  }
-  
-  #get_in_touch{
-      background-color:#E5E5E5;
-      padding-bottom: 30px;
-  }
-  
-  #softwareicon{
-    width : 120px; ///for what dimmensions
-    height: auto;
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-    padding-top:70px;
-   
-  }
-  .down_button{
-    margin-bottom: 5px;
-    display:inline-block;
-    margin-top:40px;
-  }
-  }
-
-
-
-
-
-
-
-
-  
-  @media (max-width: 320px){
-    {
-      box-sizing:border-box;
-    }
-    h1,h2{
-      font-family: 'Alegreya SC', serif;
-  }
-  .nice_to_meet_you{
-  
-      background-color:#E5E5E5;
-      padding-bottom: 30px;
-  
-  }
-  .hello{
-      text-align: center; 
-  }
-  .intro{
-      background-color: #c2dde6;
-        background-image: -webkit-linear-gradient(-40deg, #bccbde 50%, #c2dde6 50%);
-        min-height: 400px;
-  }
-  *{
-      font-family: 'Source Serif Pro', serif;  
-  }
-  body{
-    margin-left:20px;
-    margin-right:20px;
-  }
-  
-  p{
-  margin-left: 5%;
-  margin-right: 5%;
-  }
-  .pablo_quote{
-      background-color:#c2dde6;
-      color:white;
-      text-align: center;
-      padding:30px;  
-  }
-  
-  .emphasis{
-      text-emphasis: 
-  
-  
-  }
-  #get_in_touch{
-      background-color:#E5E5E5;
-      padding-bottom: 30px;
-  }
-  
-  #softwareicon{
-    width : 120px; ///for what dimmensions
-    height: auto;
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-    padding-top:70px;
-   
-  }
-  .down_button{
-    margin-bottom: 5px;
-    display:inline-block;
-    margin-top:40px;
-  }
-
-  }
-
-
-  /*Grey silver: #bccbde
-
+/*Grey silver: #bccbde
 Lightsaber Blue:#c2dde6
-
 Purple: #431c5d
-
 Orange: #e05915
-
 Yellowbrite: #cdd422
 
+
+or 
+dark grey : #5d5C61
+grey: #379683
+light blue: #7395AE
+dark blue: #557A95
+ baise #B1A296
+
+ https://visme.co/blog/website-color-schemes/
 */
