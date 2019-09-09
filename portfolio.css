@@ -6,6 +6,9 @@ body{
   background-color: #7395ae;
   color:white;
 }
+.inlineblock{
+display: inline-block;
+}
 .button {
   border-top: 1px solid #96d1f8;
   background: #65a9d7;
@@ -88,6 +91,12 @@ p{
   text-align: center;
   padding:30px;  
 }
+#projectdiv{
+  background-color: #c2dde6;
+  background-image: -webkit-linear-gradient(60deg, #B1A296 50%,  #7395AE 50%);
+  min-height: 400px;
+  text-align: center;
+}
 #softwareicon{
   width : 120px; ///for what dimmensions
   height: auto;
@@ -100,6 +109,8 @@ p{
 .hidden{
   display: none;
 }
+
+/*responsiveness from 320px to 1600px width screens*/
 
 
 
